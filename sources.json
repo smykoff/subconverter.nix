@@ -1,0 +1,19 @@
+{
+  "version": "0.9.0",
+  "x86_64-linux": {
+    "url": "https://github.com/tindy2013/subconverter/releases/download/v0.9.0/subconverter_linux64.tar.gz",
+    "hash": "sha256-iEptEWgmfroHb83VFxIVus+YwXlIq1JuTLvcrV96Ahc="
+  },
+  "aarch64-linux": {
+    "url": "https://github.com/tindy2013/subconverter/releases/download/v0.9.0/subconverter_aarch64.tar.gz",
+    "hash": "sha256-CRRoigryETYCcaTu+Kcx8JhStH7fCU03WAcLZgVEZZ4="
+  },
+  "x86_64-darwin": {
+    "url": "https://github.com/tindy2013/subconverter/releases/download/v0.9.0/subconverter_darwin64.tar.gz",
+    "hash": "sha256-Z7CSpUVr0FkYOL1J257Q61PORH/zrhzv8x4+zfA/cTA="
+  },
+  "aarch64-darwin": {
+    "url": "https://github.com/tindy2013/subconverter/releases/download/v0.9.0/subconverter_darwinarm.tar.gz",
+    "hash": "sha256-5UFKAFHdHKCo4m97J2AMH3L9BfbbFOWz1nUcLcFWwds="
+  }
+}
