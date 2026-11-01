@@ -27,7 +27,7 @@ macOS, pin the `nixpkgs` input to `nixpkgs-26.05-darwin`:
 
 ```nix
 inputs.subconverter = {
-  url = "github:<REPO>";
+  url = "github:smykoff/subconverter.nix";
   inputs.nixpkgs.follows = "nixpkgs"; # or keep the default and override below
 };
 inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-26.05-darwin";
@@ -38,20 +38,20 @@ inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-26.05-darwin";
 Run without installing:
 
 ```sh
-nix run github:<REPO>
+nix run github:smykoff/subconverter.nix
 ```
 
 Install into the user profile:
 
 ```sh
-nix profile install github:<REPO>
+nix profile install github:smykoff/subconverter.nix
 ```
 
 ### NixOS (flakes)
 
 ```nix
 {
-  inputs.subconverter.url = "github:<REPO>";
+  inputs.subconverter.url = "github:smykoff/subconverter.nix";
 
   outputs = { nixpkgs, subconverter, ... }: {
     nixosConfigurations.host = nixpkgs.lib.nixosSystem {
